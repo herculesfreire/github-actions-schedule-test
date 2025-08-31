@@ -1,7 +1,7 @@
 name: "example-cron-action"
 on:
-  push:
-  
+  schedule:
+    - cron:  '*/2 * * * *'
 
 jobs:
   singleJobName:
