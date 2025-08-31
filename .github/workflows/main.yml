@@ -1,8 +1,9 @@
 name: "example-cron-action"
 on:
-  schedule:
-    - cron:  '*/30 * * * *'
-
+#  schedule:
+#    - cron:  '*/30 * * * *'
+   push:
+   
 jobs:
   singleJobName:
     runs-on: ubuntu-latest
